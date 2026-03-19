@@ -6,6 +6,10 @@ int main() {
         printf("%c\n", a[i]);
         i++;
     }
+    while(i >= 0) {
+        printf("%c\n", a[i]);
+        i--;
+    }
 
     return 0;
 }
